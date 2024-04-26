@@ -282,7 +282,7 @@ the `args` variable in scripts). If you want to use CUDA, you must explicitly se
 # The result will be at "path/to/my_experiment"
 CUDA_VISIBLE_DEVICES=0 python bin/mlp.py path/to/my_experiment.toml
 
-# The following example will run WITHOUT CUDA
+# The following example will run WITHOUT CUDAa
 python bin/mlp.py path/to/my_experiment.toml
 ```
 If you are going to use CUDA all the time, you can save the environment variable in the
